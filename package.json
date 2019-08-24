@@ -51,9 +51,11 @@
     "lint": "./node_modules/.bin/eslint ./lib/**"
   },
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "readmeFilename": "README.md",
   "license": "MIT",
   "devDependencies": {
+    "@types/moment": "^2.13.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
